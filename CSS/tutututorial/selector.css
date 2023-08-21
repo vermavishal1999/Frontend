@@ -1,0 +1,31 @@
+/* universal selector is * ,use to select whole page  */
+*{
+    color: rgb(231, 70, 42);
+    background-color: rgb(225, 225, 242);
+}
+/* element selector select an element , and it will affact all elemenet of same name in page  */
+h1{
+    color: black;
+}
+/* id selector - selection a particular element with id number  */
+#id1{
+     color: purple;
+     background-color: pink;
+
+}
+.class1 p{
+    color: blue;
+
+}
+#box{
+    color: blueviolet;
+    background-color: chocolate;
+}
+.heading {
+    color:  red;
+}
+button{
+     background-color: green;
+     color: blue;
+     
+}

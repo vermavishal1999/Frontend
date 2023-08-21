@@ -1,0 +1,28 @@
+*{
+    width: 0;
+    height: 0;
+}
+
+/* absolute unit - units which remain same for every element like px */
+
+/* Relative unit - which depends on the parents  */
+/* em,rem and % aare relative unit */
+#box1{
+    height: 200px;
+width: 200px;
+font-size: 20px;
+}
+#box2{
+    height: 50px;
+    width: 50%;
+    margin-left: 10%;
+    margin: 10%;
+    color: white;
+    font-size: 5rem;
+
+}
+
+/* em - font size of parent , in case of typographical properties like fontsize,
+ and font size of the element itself in the case of other properties of width */
+
+ /* rem -root element font size is taken to multiply */

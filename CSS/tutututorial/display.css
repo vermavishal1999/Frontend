@@ -1,0 +1,26 @@
+/* display property 
+Inline - takes the space only require by the element(no margin padding)
+block -takes full space awailable in width
+inline-block -similer to inline but we can set marging and padding
+none - to remove element from documewnt flow */
+/* div{
+    background-color: pink;
+    display: inline;
+}
+button{
+    display: block;
+} */
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box2{
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* rgba(red,blue green , alpha-to chane opacity) */

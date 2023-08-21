@@ -1,0 +1,44 @@
+/* div{
+   
+    background-color: pink;
+    border:2px solid red ;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    margin: 10px 20px 30px 40px;
+}
+margin is use to give distance between 2 element  */
+/* while padding is use to give space inside the elemnt 
+the short hand follows cloclwise order margin top right bottom left  */
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+   
+}
+#l1{
+    
+    color: #f08804;
+    text-decoration: none;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: #f08804;
+}

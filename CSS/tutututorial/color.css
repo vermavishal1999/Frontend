@@ -1,0 +1,28 @@
+
+/* color is ude to color the specific element  */
+/* background color is use to colure bakcgroudn */
+ /* * is use to set whole page color property  */
+*{
+background-color: rgb(199, 219, 237);
+}
+h3{
+    color: green;
+    background-color: rgb(216, 218, 241);
+}
+/* color  */
+
+
+button{
+    color: rebeccapurple;
+    background-color: green;
+}
+/* color system  rgb(red,green,blue)*/
+p{
+    color: rgb(208, 90, 31);
+    background-color: rgb(123, 174, 218);
+}
+
+/* hex system */
+h1{
+    color: #d87218;
+}

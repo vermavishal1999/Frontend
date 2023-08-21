@@ -1,0 +1,64 @@
+/* flexbox is flexibal box layout 
+Flexbox-direction:directionname
+
+row (default) means all elements arrange  from left
+row-reverse  opposit to row- from right to left willbe arranged
+column  - will align from top to bottom, it will reduce the height to be fit in container
+column-reverse
+*/
+
+/* ----------------------flex properties for containers---------------------------- */
+/* justify content  -flex-start -> start from main axces 
+                      flex end   ->end from main axes 
+                      centre - in centre for main
+                      space around -take all avaailable spae equaly in main axes (will align equidistance )
+                                   space in start and end will be half of space in mid of elements
+
+*/
+/* ------------------flex properties for flex items---------------
+    alighn-self -alignment of individual along the cross axis
+    flex grow- how much a flex item will grow, relative to the rest of the flex items if space is available 
+    flex shrink -how much a flex item will shrink relative to the rest of space is available
+*/
+
+body{
+    text-align: center;
+
+}
+div{
+    height:50px ;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* align-content: flex-start; */
+}
+
+#box1{
+    background-color: aliceblue;
+}
+#box2{
+    background-color: beige;
+    height: 200px;
+    flex-grow: 1;
+  
+}
+#box3{
+    background-color: cadetblue;
+    height: 75px;
+}
+#box4{
+    background-color: darkblue;
+}
+#box5{
+    background-color: gainsboro;
+    
+}

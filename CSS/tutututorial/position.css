@@ -1,0 +1,18 @@
+/* position property tells how a element is position in document
+static relative absolute fix
+Static - :default position 
+relative - relative to itself
+absolute- positioned relative to its closest positioned(non static) ancestor
+fixed- positioned relative to browser
+stickey-positioned based on user scroll position
+*/
+#box{
+    width: 500px;
+    height: 500px;
+    
+}
+*{
+    background-image: url("img1.jpeg");
+   
+
+}

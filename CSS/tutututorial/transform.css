@@ -1,0 +1,49 @@
+/* 
+css transform 
+use to apply 2d and 3d transformation to an element 
+rotate 
+transform:rotate(45deg)
+rotate x:45deg
+rotate y:45deg
+rotate z :50deg */
+/* ----------------Scale
+transform:scale(2);
+transform:scale(0.5)
+transform(1,2); */
+
+/* translate----------- 
+transform/;translate(20px)
+transform/;translate(20px,50px) 
+
+Animation
+@keyframe myName{
+    from{font-size:20px;}
+    to {font-size:40px;}
+*/
+
+div{
+    background-color: rgb(255, 174, 0);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(30, 228, 83);
+    border-top :20px solid rgb(25, 142, 225);
+    
+  
+  animation: spin dur3 ease-in infinite direction fill-mode;
+  animation: spin 2s ease-in-out 0s infinite normal ;
+   
+}
+div:hover{
+    
+    background-color: rebeccapurple;
+    filter: blur(5px);
+    animation: 3s infinite pulse;
+    animation-composition: add;
+}
+
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+    
+}

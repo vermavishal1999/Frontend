@@ -1,0 +1,31 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+a{
+    text-decoration: none;
+    background-color: skyblue;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center; /* //to place it horizontally in centre */
+    align-items: center;  /*    to place :vertical horizontal  */
+   
+   
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
